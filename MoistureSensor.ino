@@ -39,6 +39,7 @@ void loop()
     readData = analogRead(sensorPin);
     soilm = readData;
     
+    //1時間平均土壌水分計算
     if(hAveSoilm != 0)
     {
       hAveSoilm = (hAveSoilm+soilm)/ 2;
