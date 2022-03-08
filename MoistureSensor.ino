@@ -85,7 +85,7 @@ void ambientup()
 
     //ambientに送るデータをセット
     ambient.set(1, soilm);
-    ambient.set(1, hAveSoilm);
+    ambient.set(2, hAveSoilm);
 
     //ambientにデータを送信
     ambient.send(); 
